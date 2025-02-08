@@ -1,6 +1,6 @@
 import SunCalc from "suncalc";
 
-const {dusk: targetTime} = SunCalc.getTimes(new Date(), parseFloat(latitude), parseFloat(longitude))
+const {sunset: targetTime} = SunCalc.getTimes(new Date(), parseFloat(latitude), parseFloat(longitude))
 
 const alarmTime = new Date(targetTime.getTime() + (parseInt(offset) * 6e4))
 
