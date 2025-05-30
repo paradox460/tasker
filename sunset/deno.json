@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "build": "deno run --allow-env --allow-read --allow-run --allow-write build.mjs"
+  },
+  "imports": {
+    "suncalc": "npm:suncalc@^1.9.0"
+  }
+}

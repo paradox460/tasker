@@ -1,4 +1,4 @@
-import SunCalc from "suncalc";
+import SunCalc from "npm:suncalc@1.9.0";
 
 const {sunset: targetTime} = SunCalc.getTimes(new Date(), parseFloat(latitude), parseFloat(longitude))
 
